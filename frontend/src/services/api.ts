@@ -1,7 +1,8 @@
 import { AnalysisResult, Satellite, DebrisObject, Encounter, CSVImportResult } from '../types';
 import { FALLBACK_DEMO_ANALYSIS } from './demoData';
 
-const API_BASE = import.meta.env.VITE_API_URL || 'http://localhost:8000/api';
+const rawApiUrl = (import.meta.env.VITE_API_URL || 'http://localhost:8000').replace(/\/$/, '');
+const API_BASE = rawApiUrl.endsWith('/api') ? rawApiUrl : `${rawApiUrl}/api`;
 
 export async function fetchHealth(): Promise<{ status: string; groq_configured: boolean; supabase_configured: boolean }> {
   try {
