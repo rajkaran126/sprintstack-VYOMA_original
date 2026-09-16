@@ -1,0 +1,9 @@
+object_id,name,altitude_km,inclination_deg,period_min,phase_deg,raan_deg,rcs_size
+DEB-001,Cosmos-2251 Collision Shard,506.8,97.3,94.7,14.15,45.2,MEDIUM
+DEB-002,Fengyun-1C Anti-Satellite Debris,508.5,98.2,94.8,15.0,46.1,SMALL
+DEB-003,Iridium-33 Solar Array Fragment,503.2,96.8,94.6,12.8,44.1,SMALL
+DEB-004,SL-4 Spent Upper Stage Shroud,512.0,97.0,94.8,35.0,52.0,LARGE
+DEB-005,CZ-4C Payload Adapter Fragment,498.0,97.8,94.5,80.0,48.0,MEDIUM
+DEB-006,Thor-Able Star Fragment,535.0,66.5,95.3,210.0,110.0,MEDIUM
+DEB-007,Pegasus Spent Rocket Shard,520.4,94.1,95.0,140.0,75.0,SMALL
+DEB-008,Micrometeoroid Impact Spall,490.2,98.6,94.4,280.0,190.0,SMALL
